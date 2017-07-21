@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="14.1.1" version="14.1.1" Modules="simple" RootPath="." Language="en" Id="{FCAC399F-415F-4576-AC35-4C9CBA86099B}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiThemeComponent;BackgroundImagesComponent;UpdaterComponent;SerValComponent;DigCertStoreComponent;MsiInstExSeqComponent;DictionaryComponent;MsiAppSearchComponent;MsiAssemblyComponent;MsiClassComponent;MsiOdbcDataSrcComponent;MsiServInstComponent;MsiOrgComponent;MsiExtComponent;CPLAppletComponent;ActSyncAppComponent;PreReqComponent;WebApplicationsComponent;TilesComponent;MsiJavaComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;TilesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1" MultiBuildValue="DefaultBuild:"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOMODIFY" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="ARPPRODUCTICON" Value="putty_1.exe" Type="8"/>
+    <ROW Property="LIMITUI" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="Manufacturer" Value="N/A"/>
+    <ROW Property="ProductCode" Value="1033:{5AD3FC63-6A7F-41C8-A1DF-BEE90B2EEB3B} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="PuTTY Monokai Default Theme"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{AA9961E1-6A86-4AF3-80F3-08816DB397B4}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT" MultiBuildValue="DefaultBuild:Windows 9x/ME/NT/2000/XP/Vista/Windows 7/Windows 8 x86/Windows 8.1 x86/Windows 10 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNTDisplay" MultiBuildValue="DefaultBuild:32-bit Windows versions" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="Beep" ComponentId="{97280366-E7EE-42F6-B004-E51E87DEB425}" Directory_="APPDIR" Attributes="4" KeyPath="Beep"/>
+    <ROW Component="BeepInd" ComponentId="{1197CB43-3120-434F-A21F-7583FE5C25C4}" Directory_="APPDIR" Attributes="4" KeyPath="BeepInd"/>
+    <ROW Component="Colour0" ComponentId="{0CEDBD7F-3018-4D91-A3A5-BDF4AB362659}" Directory_="APPDIR" Attributes="4" KeyPath="Colour0"/>
+    <ROW Component="Colour1" ComponentId="{3D9951BF-B89B-484B-9518-FEC61380AD84}" Directory_="APPDIR" Attributes="4" KeyPath="Colour1"/>
+    <ROW Component="Colour10" ComponentId="{DB4AAB10-53F6-4CF4-B8D8-60F9FEF240C2}" Directory_="APPDIR" Attributes="4" KeyPath="Colour10"/>
+    <ROW Component="Colour11" ComponentId="{A57B214F-79D1-4FAE-9433-92C858F2486A}" Directory_="APPDIR" Attributes="4" KeyPath="Colour11"/>
+    <ROW Component="Colour12" ComponentId="{ADE83728-A473-4BB8-BF2C-C3E687567DE7}" Directory_="APPDIR" Attributes="4" KeyPath="Colour12"/>
+    <ROW Component="Colour13" ComponentId="{B1A8C595-2439-4059-A02B-51BAF94F8BB1}" Directory_="APPDIR" Attributes="4" KeyPath="Colour13"/>
+    <ROW Component="Colour14" ComponentId="{B388547C-3F68-4B88-8395-8934A14DA65B}" Directory_="APPDIR" Attributes="4" KeyPath="Colour14"/>
+    <ROW Component="Colour15" ComponentId="{52ABAEF3-1DA5-4533-8A70-7DB9EEC72FD0}" Directory_="APPDIR" Attributes="4" KeyPath="Colour15"/>
+    <ROW Component="Colour16" ComponentId="{BC1DCE9C-E84F-440C-BF41-40B926C9D263}" Directory_="APPDIR" Attributes="4" KeyPath="Colour16"/>
+    <ROW Component="Colour17" ComponentId="{90380FED-CF46-45A0-8453-D88CEB215CE8}" Directory_="APPDIR" Attributes="4" KeyPath="Colour17"/>
+    <ROW Component="Colour18" ComponentId="{37CBE92C-EE2D-4AAC-B94B-BCA3F5BD06CD}" Directory_="APPDIR" Attributes="4" KeyPath="Colour18"/>
+    <ROW Component="Colour19" ComponentId="{5EA11943-2281-4E9A-B832-E154C8308FBE}" Directory_="APPDIR" Attributes="4" KeyPath="Colour19"/>
+    <ROW Component="Colour2" ComponentId="{847E18C4-D43C-4990-93B1-B3FA1F6ACE1E}" Directory_="APPDIR" Attributes="4" KeyPath="Colour2"/>
+    <ROW Component="Colour20" ComponentId="{F603F531-958F-4261-86F3-A4081F5A5DBD}" Directory_="APPDIR" Attributes="4" KeyPath="Colour20"/>
+    <ROW Component="Colour21" ComponentId="{65FCEEB6-C721-4257-8EA8-DB7FEC5579E5}" Directory_="APPDIR" Attributes="4" KeyPath="Colour21"/>
+    <ROW Component="Colour3" ComponentId="{9DEB156D-B7B4-43FC-B9D8-B60416CD3611}" Directory_="APPDIR" Attributes="4" KeyPath="Colour3"/>
+    <ROW Component="Colour4" ComponentId="{93E749E6-4E11-47C6-BFED-FCB3FCB8808A}" Directory_="APPDIR" Attributes="4" KeyPath="Colour4"/>
+    <ROW Component="Colour5" ComponentId="{89FFDE4A-0574-4146-AA55-6AC34779E360}" Directory_="APPDIR" Attributes="4" KeyPath="Colour5"/>
+    <ROW Component="Colour6" ComponentId="{15DDFA31-CCD0-4B9E-B2B7-4FE48BFD8073}" Directory_="APPDIR" Attributes="4" KeyPath="Colour6"/>
+    <ROW Component="Colour7" ComponentId="{6BDCE2BC-8246-4883-BAC4-A5747B5F5485}" Directory_="APPDIR" Attributes="4" KeyPath="Colour7"/>
+    <ROW Component="Colour8" ComponentId="{BA102027-AC9E-422C-88B7-E9C85E79FD36}" Directory_="APPDIR" Attributes="4" KeyPath="Colour8"/>
+    <ROW Component="Colour9" ComponentId="{3CA29690-D672-4F57-BCAC-D65BD7BCB829}" Directory_="APPDIR" Attributes="4" KeyPath="Colour9"/>
+    <ROW Component="Font" ComponentId="{E765D630-5398-4709-864A-2FA3BB5A5C34}" Directory_="APPDIR" Attributes="4" KeyPath="Font"/>
+    <ROW Component="FontHeight" ComponentId="{FD80DD98-89D3-4C21-A44F-F54A87BF6F70}" Directory_="APPDIR" Attributes="4" KeyPath="FontHeight"/>
+    <ROW Component="FontIsBold" ComponentId="{3E2CB687-77CF-477F-9097-3B2AA56DF0EA}" Directory_="APPDIR" Attributes="4" KeyPath="FontIsBold"/>
+    <ROW Component="LineCodePage" ComponentId="{B1BED32A-9FD6-4CD1-8506-7DC30BB8D9A5}" Directory_="APPDIR" Attributes="4" KeyPath="LineCodePage"/>
+    <ROW Component="UseSystemColours" ComponentId="{BC803471-033C-4862-A747-BE8BFF30DF37}" Directory_="APPDIR" Attributes="4" KeyPath="UseSystemColours"/>
+    <ROW Component="Xterm256Colour" ComponentId="{898EEDA0-A129-4D03-B65D-F78AD1A9081F}" Directory_="APPDIR" Attributes="4" KeyPath="Xterm256Colour"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="Beep BeepInd Colour0 Colour1 Colour10 Colour11 Colour12 Colour13 Colour14 Colour15 Colour16 Colour17 Colour18 Colour19 Colour2 Colour20 Colour21 Colour3 Colour4 Colour5 Colour6 Colour7 Colour8 Colour9 Font FontHeight FontIsBold LineCodePage UseSystemColours Xterm256Colour"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true" MsiPackageType="x64"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[AppDataFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="putty_1.exe" SourcePath="C:\Program Files (x86)\PuTTY\putty.exe" Index="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="VerifyReadyDlg" Condition="AI_INSTALL" Sequence="1230" SeqType="3" MsiKey="WelcomeDlg"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="( Version9X OR VersionNT64 )" Description="[ProductName] cannot be installed on [WindowsTypeNTDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Beep" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Beep" Value="#2" Component_="Beep"/>
+    <ROW Registry="BeepInd" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="BeepInd" Value="#0" Component_="BeepInd"/>
+    <ROW Registry="Colour0" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour0" Value="248,248,242" Component_="Colour0"/>
+    <ROW Registry="Colour1" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour1" Value="248,248,242" Component_="Colour1"/>
+    <ROW Registry="Colour10" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour10" Value="166,226,46" Component_="Colour10"/>
+    <ROW Registry="Colour11" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour11" Value="157,197,75" Component_="Colour11"/>
+    <ROW Registry="Colour12" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour12" Value="230,219,116" Component_="Colour12"/>
+    <ROW Registry="Colour13" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour13" Value="209,202,137" Component_="Colour13"/>
+    <ROW Registry="Colour14" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour14" Value="102,217,239" Component_="Colour14"/>
+    <ROW Registry="Colour15" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour15" Value="122,204,218" Component_="Colour15"/>
+    <ROW Registry="Colour16" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour16" Value="174,129,255" Component_="Colour16"/>
+    <ROW Registry="Colour17" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour17" Value="179,146,239" Component_="Colour17"/>
+    <ROW Registry="Colour18" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour18" Value="0,217,217" Component_="Colour18"/>
+    <ROW Registry="Colour19" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour19" Value="200,240,240" Component_="Colour19"/>
+    <ROW Registry="Colour2" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour2" Value="39,40,34" Component_="Colour2"/>
+    <ROW Registry="Colour20" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour20" Value="245,222,179" Component_="Colour20"/>
+    <ROW Registry="Colour21" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour21" Value="255,255,255" Component_="Colour21"/>
+    <ROW Registry="Colour3" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour3" Value="39,40,34" Component_="Colour3"/>
+    <ROW Registry="Colour4" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour4" Value="0,0,0" Component_="Colour4"/>
+    <ROW Registry="Colour5" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour5" Value="255,128,0" Component_="Colour5"/>
+    <ROW Registry="Colour6" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour6" Value="0,0,0" Component_="Colour6"/>
+    <ROW Registry="Colour7" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour7" Value="85,85,85" Component_="Colour7"/>
+    <ROW Registry="Colour8" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour8" Value="249,38,114" Component_="Colour8"/>
+    <ROW Registry="Colour9" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Colour9" Value="221,66,120" Component_="Colour9"/>
+    <ROW Registry="Font" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Font" Value="Consolas" Component_="Font"/>
+    <ROW Registry="FontHeight" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="FontHeight" Value="#9" Component_="FontHeight"/>
+    <ROW Registry="FontIsBold" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="FontIsBold" Value="#0" Component_="FontIsBold"/>
+    <ROW Registry="LineCodePage" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="LineCodePage" Value="UTF-8" Component_="LineCodePage"/>
+    <ROW Registry="UseSystemColours" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="UseSystemColours" Value="#0" Component_="UseSystemColours"/>
+    <ROW Registry="Xterm256Colour" Root="1" Key="Software\SimonTatham\PuTTY\Sessions\Default%20Settings" Name="Xterm256Colour" Value="#1" Component_="Xterm256Colour"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
