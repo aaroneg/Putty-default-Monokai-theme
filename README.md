@@ -12,3 +12,6 @@ Source file for the MSI. Use advanced installer to open it if you'd like to buil
 
 # Subfolders
 included because that's the folder the AIP is configured to place the newly-built MSI in.
+
+# Credit
+I can't remember where I sourced the original .reg file, but I suspect it was here : https://gist.github.com/gdvalle/4187089
